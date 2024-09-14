@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutritracks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        }
+        .main-body {
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+            max-width: 420px;
+        }
+        .app-listing {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .app-info {
+            display: flex;
+            align-items: center;
+        }
+        .app-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+        }
+        .app-details {
+            margin-left: 15px;
+            flex: 1;
+        }
+        .app-name {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .app-developer {
+            color: #717070;
+            margin-top: 5px;
+        }
+        .screenshots {
+            display: flex;
+            overflow-x: auto;
+            margin-top: 20px;
+            scrollbar-width: none; /* Hide scroll bar for Firefox */
+        }
+        .screenshots img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .download-button {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .footer {
+            margin-top: 20px;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 0.9em;
+        }
+        .footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .screenshots img {
+                width: 300px;
+                height: 320px;
+                margin-right: 10px;
+            }
+        }
+    </style>
+    <script>
+        function downloadAPK() {
+            window.location.href = 'Apk';
+        }
+    </script>
+</head>
+<body>
+   <div class="main-body">
+    <div class="app-listing">
+        <div class="app-info">
+            <img src="images/icon2.png" alt="App Icon" class="app-icon">
+            <div class="app-details">
+                <div class="app-name">Nutritrack</div>
+                <div class="app-developer">Svit vasad</div>
+            </div>
+        </div>
+        <div class="screenshots">
+            <img src="images/home.jpg" alt="Screenshot 1">
+            <img src="images/dash.jpg" alt="Screenshot 2">
+            <img src="images/calories.jpg" alt="Screenshot 3">
+            <img src="images/retrack.jpg" alt="Screenshot 4">
+            <img src="images/tracker.jpg" alt="Screenshot 5">
+            <img src="images/profile.jpg" alt="Screenshot 6">
+        </div>
+        <a href="https://drive.google.com/uc?export=download&id=1EViKIAUie9SR5SnFQkG-sFGTniba9_US" class="download-button" download="learnigApp.apk">Install</a>
+    </div>
+    <div class="footer">
+        <p style="text-align: center;">How to Download</p>
+        <p>About the App: <span style="color: #717070;">
+            Features of the Nutritrack App:
+            <ul>
+                <li>Profile & Security Settings: Update personal information, enable two-factor authentication, and manage your account.</li>
+                <li>Meal Plan Guides: Track daily caloric intake and recalculate based on changing needs.</li>
+                <li>Home Dashboard: Monitor weight goals, meal plans, and overall activity progress.</li>
+            </ul>
+        </span></p>
+        <p>View the source code on <a href="https://github.com/Virang007?tab=repositories" target="_blank">GitHub</a>.</p>
+        <p>Developed by <a href="https://github.com/Virang007" target="_blank">Virang Acharya</a>.</p>
+    </div>
+   </div>
+</body>
+</html>
