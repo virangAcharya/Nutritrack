@@ -1,8 +1,6 @@
 # Nutritrack App Flutter and IOs  
 # Tools - Flutter
-## Freelance Projects
 
-This section highlights some of my freelance projects. The source code is not shared, but I’m showcasing the features of the Nutritrack app here.
 
 ### Features of the Nutritrack App:
 - **Meal Plan Guides**: Track daily caloric intake and recalculate based on changing needs.
